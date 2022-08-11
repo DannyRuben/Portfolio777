@@ -4,24 +4,24 @@ Common
 
 *******************/
 
-body{
+body {
     font-family: "monospace", sans-serif;
 }
 
-.font-primary{
-    color: #00abae
+.font-primary {
+    color: #00abae;
 }
 
-.title-icon{
+.title-icon {
     font-size: 20px;
     font-weight: bold;
 }
 
-p{
+p {
     font-size: 20px;
 }
 
-h2{
+h2 {
     font-weight: bold;
     font-size: 23px;
     margin-bottom: 20px;
@@ -37,7 +37,7 @@ ABOUT
 *******************/
 
 #about {
-    margin: 60px;
+    margin: 60px auto;
     max-width: 400px;
     text-align: center;
 }
@@ -54,7 +54,7 @@ ABOUT
 
 #about .vocation {
     font-size: 17px;
-    color:black;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -75,7 +75,7 @@ ABOUT
 }
 
 #about .icons a{
-    color:#000;
+    color: #000;
 }
 
 
@@ -98,8 +98,16 @@ PROJECT
 
 #project .card img {
     width: 100%;
+    border-radius: 3.5px;
 }
 
 #project .card-title {
     font-weight: bold;
+}
+
+a.nav\=link.font-black {
+    position: relative;
+    left: 18px;
+    top: 8px;
+    text-decoration: none;
 }
